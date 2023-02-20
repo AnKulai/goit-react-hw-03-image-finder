@@ -68,7 +68,7 @@ class App extends Component {
     if (event.keyCode === 27) {
       if (this.state.popupOpen) this.setState({ popupOpen: false });
     }
-    if (this.state.popupOpen && event.target.tagName != `IMG`) {
+    if (this.state.popupOpen && event.target.tagName !== `IMG`) {
       this.setState({ popupOpen: false });
     }
   };
