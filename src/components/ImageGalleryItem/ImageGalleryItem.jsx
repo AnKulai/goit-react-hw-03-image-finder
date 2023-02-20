@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const ImageGalleryItem = ({ webformatURL, largeImageURL, openPopup }) => {
   return (
     <li onClick={() => openPopup(largeImageURL)}>
-      <img width="100%" height="100%" src={webformatURL} alt="photo" />
+      <img width="100%" height="100%" src={webformatURL} alt="Place for img" />
     </li>
   );
 };
